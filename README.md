@@ -12,6 +12,15 @@ This is an examole of how to use colab [Colab](https://github.com/onieio/justpyt
 
 ### Github codespaces 
 
+Build out python project Scaffold
+* Makefile
+* requirements.txt
+* test_library.py
+* python_libiray
+* Dockerfile
+* Command-line tool
+* microservice
+
 ## Command-Line Tools 
 
 ## Microservices
