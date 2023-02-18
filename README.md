@@ -1,3 +1,4 @@
+[![Test multiple python versions](https://github.com/onieio/justpython/actions/workflows/main.yml/badge.svg)](https://github.com/onieio/justpython/actions/workflows/main.yml)
 # Python-for-Devops
 
 Everything about python-for-Devops from zero
