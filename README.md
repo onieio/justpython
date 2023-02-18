@@ -22,7 +22,7 @@ Build out python project Scaffold
 * microservice
 
 1. Create a Virtualenv `virtualenv ~/.venv`
-2. Edit `~/.bashrc` 
+2. Edit `~/.bashrc` add `source ~/.venv/bin/activate` at the end of the file 
 
 ## Command-Line Tools 
 
