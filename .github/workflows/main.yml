@@ -20,7 +20,7 @@ jobs:
           make lint
       - name: Test my pytest
         run: |
-          make pytest
-      - name: Formate code with python Black
+          make test
+      - name: Format code with python Black
         run: |
-          make formate
+          make format
