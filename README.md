@@ -14,16 +14,17 @@ This is an examole of how to use colab [Colab](https://github.com/onieio/justpyt
 ### Github codespaces 
 
 Build out python project Scaffold
-* Makefile
-* requirements.txt
-* test_library.py
-* python_libiray
+* [Makefile](https://github.com/onieio/justpython/blob/main/Makefile)
+* [requirements.txt](https://github.com/onieio/justpython/blob/main/requirements.txt)
+* [test_library.py](https://github.com/onieio/justpython/blob/main/test_devopslib.py)
+* [python_libiray](https://github.com/onieio/justpython/tree/main/devopslib)
 * Dockerfile
 * Command-line tool
 * microservice
 
 1. Create a Virtualenv `virtualenv ~/.venv`
 2. Edit `~/.bashrc` add `source ~/.venv/bin/activate` at the end of the file 
+3. clone project and `make all`
 
 ## Command-Line Tools 
 
