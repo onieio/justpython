@@ -29,5 +29,10 @@ Build out python project Scaffold
 ## Command-Line Tools 
 
 ## Microservices
+`docker build -t wikisearch .`
 
 ## Containerized continues delevery
+`docker run -p 127.0.0.1:8080:8080 7d839ee451dc`
+
+## Test
+`curl http://0.0.0.0:8080/wiki/gmail`

@@ -1,6 +1,10 @@
 install:
 		pip install --upgrade pip &&\
 				pip install -r requirements.txt
+
+post-install:
+		python -m textblob.download_corpora
+
 lint:
 		pylint --disable=R,C *.py devopslib
 
@@ -13,4 +17,4 @@ format:
 deploy:
 		echo "Deploy goes here"
 
-all: install lint test format
+all: install post-install lint test format
