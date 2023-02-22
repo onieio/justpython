@@ -28,7 +28,7 @@ Build out python project Scaffold
 
 ## Pytest 
 
-* Overview of pytest invocation[https://docs.pytest.org/en/6.2.x/usage.html?highlight=pdb]
+* [Overview of pytest invocation](https://docs.pytest.org/en/6.2.x/usage.html?highlight=pdb)
 * Simple version: `make test` via `python -m pytest -vv test_hello.py`
 * Adding Code Coverage: `pytest-cov` `python -m pytest -vv --cov=hello test_hello.py`
 
