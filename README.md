@@ -36,3 +36,4 @@ Build out python project Scaffold
 
 ## Test
 `curl http://0.0.0.0:8080/wiki/gmail`
+`curl http://0.0.0.0:8080/search/google`
