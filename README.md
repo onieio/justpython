@@ -26,6 +26,13 @@ Build out python project Scaffold
 2. Edit `~/.bashrc` add `source ~/.venv/bin/activate` at the end of the file 
 3. clone project and `make all`
 
+## Pytest 
+
+* [Overview of pytest invocation](https://docs.pytest.org/en/6.2.x/usage.html?highlight=pdb)
+* Simple version: `make test` via `python -m pytest -vv test_hello.py`
+* Adding Code Coverage: `pytest-cov` `python -m pytest -vv --cov=hello test_hello.py`
+
+
 ## Command-Line Tools 
 
 ## Microservices
