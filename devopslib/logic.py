@@ -28,4 +28,5 @@ def search_wiki(name):
     """Search Wikipedia for Names"""
 
     results = wikipedia.search(name)
-    return results[:10]
+    # retrun results in dictionary format in assending order
+    return {i: results[i] for i in range(0, len(results))}
