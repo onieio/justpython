@@ -23,6 +23,7 @@ def phrase(name):
     blob = TextBlob(page)
     return blob.noun_phrases
 
+
 def search_wiki(name):
     """Search Wikipedia for Names"""
 
