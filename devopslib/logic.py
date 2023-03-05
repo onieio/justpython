@@ -9,11 +9,11 @@ def wiki(name="War Goddess", length=1):
     return my_wiki
 
 
-def search_wiki(name):
-    """Search Wikipedia for Names"""
+# def search_wiki(name):
+#     """Search Wikipedia for Names"""
 
-    results = wikipedia.search(name)
-    return results
+#     results = wikipedia.search(name)
+#     return results
 
 
 def phrase(name):
@@ -22,3 +22,9 @@ def phrase(name):
     page = wiki(name)
     blob = TextBlob(page)
     return blob.noun_phrases
+
+def search_wiki(name):
+    """Search Wikipedia for Names"""
+
+    results = wikipedia.search(name)
+    return results[:10]
